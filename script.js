@@ -1,15 +1,3 @@
-const heroImage = document.querySelector(".hero-image-wrap img");
-if (heroImage) {
-  heroImage.src = "20250605_201510.jpg";
-  heroImage.alt = "Featured Steph Fontenot artwork";
-}
-
-const commissionImage = document.querySelector(".feature-image img");
-if (commissionImage) {
-  commissionImage.src = "rs=w_730,h_730,cg_true.webp";
-  commissionImage.alt = "A table filled with Steph Fontenot's colorful paintings and shell-based mixed-media artwork";
-}
-
 const galleryItems = [
   { src: "IMG_1443.jpg", label: "Napoleon under a crescent moon", category: "louisiana", alt: "Painting of Napoleon beneath a crescent moon beside a New Orleans streetlamp" },
   { src: "ArtGalleryUploadPhotos/20250628_182302.JPG", label: "Stone bridge and cypress", category: "louisiana", alt: "Painting of a stone bridge, cypress trees, water, and birds" },
