@@ -1,3 +1,15 @@
+const heroImage = document.querySelector(".hero-image-wrap img");
+if (heroImage) {
+  heroImage.src = "20250605_201510.jpg";
+  heroImage.alt = "Featured Steph Fontenot artwork";
+}
+
+const commissionImage = document.querySelector(".feature-image img");
+if (commissionImage) {
+  commissionImage.src = "rs=w_730,h_730,cg_true.webp";
+  commissionImage.alt = "A table filled with Steph Fontenot's colorful paintings and shell-based mixed-media artwork";
+}
+
 const galleryItems = [
   { src: "IMG_1443.jpg", label: "Napoleon under a crescent moon", category: "louisiana", alt: "Painting of Napoleon beneath a crescent moon beside a New Orleans streetlamp" },
   { src: "ArtGalleryUploadPhotos/20250628_182302.JPG", label: "Stone bridge and cypress", category: "louisiana", alt: "Painting of a stone bridge, cypress trees, water, and birds" },
@@ -5,7 +17,7 @@ const galleryItems = [
   { src: "ArtGalleryUploadPhotos/IMG_1625.jpg", label: "Rose-sky skyline", category: "louisiana", alt: "Colorful painting of New Orleans church towers against a rose and blue sky" },
   { src: "ArtGalleryUploadPhotos/IMG_1626.jpg", label: "Cathedral silhouette", category: "louisiana", alt: "Painting of cathedral spires and rooftops against a vivid pink and yellow sky" },
   { src: "ArtGalleryUploadPhotos/IMG_1627.jpg", label: "Beaded fleur-de-lis", category: "louisiana", alt: "Blue fleur-de-lis painting outlined with colorful bead-like dots" },
-  { src: "ArtGalleryUploadPhotos/IMG_1643.jpg", label: "Quiet window", category: "louisiana", alt: "Small framed painting of a solitary figure beside a window" },
+  { src: "rs=w_1160,h_844.webp", label: "Bayou tavern scene", category: "louisiana", alt: "Painted bayou tavern scene with a jester, raccoon, opossum, alligator, and slot machine" },
   { src: "ArtGalleryUploadPhotos/IMG_2324.jpg", label: "Cemetery moon", category: "louisiana", alt: "Painting of a New Orleans cemetery beneath a full yellow moon" },
   { src: "IMG_1461.jpg", label: "Oyster moon and lantern", category: "louisiana", alt: "Mixed-media painting with an oyster shell moon, streetlamp silhouette, and fleur-de-lis" },
 
