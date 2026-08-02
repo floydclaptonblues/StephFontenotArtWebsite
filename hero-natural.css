@@ -1,0 +1,21 @@
+.hero-image-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image-wrap::before,
+.hero-image-wrap::after {
+  content: none;
+}
+
+.hero-image-wrap img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  transform: none;
+}
