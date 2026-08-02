@@ -1,5 +1,9 @@
 # Steph Fontenot Art Website
 
-A responsive static portfolio site for Gulf Coast visual artist Steph Fontenot.
+Responsive static portfolio for Gulf Coast visual artist Steph Fontenot.
 
-This repository is being rebuilt with a periwinkle-marble visual system, an optimized artwork gallery, commissions, mural documentation, artist biography, and contact information.
+The site uses the artwork already stored in this repository, with a layered periwinkle-marble visual system, filterable gallery, accessible lightbox, commission information, mural documentation, artist biography, and direct contact links.
+
+## Deployment
+
+GitHub Pages deploys automatically from `main` through `.github/workflows/pages.yml`.
